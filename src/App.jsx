@@ -1,4 +1,5 @@
 import './App.css'
+import StateValueGotcha from './StateValueGotcha'
 import Objects from './Objects'
 import Persons from './Persons'
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
      <Objects/>
      <Persons/>
+     <StateValueGotcha/> 
     </div>
   )
 }
